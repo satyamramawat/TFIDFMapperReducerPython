@@ -14,6 +14,7 @@ Stage 3 Mapper Output -> TF-IDF (TF x IDF)
 ## 2) How code will work
 
 TF-IDF Calculation has been done into three stages whereas, 
+
 1st Stage:
 Mapper(Input): RAW DATA 
 Reducer(Output): Will generate a Text file like part-0000.txt which has data in format{(word, document id), Word count in Document}
