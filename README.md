@@ -42,7 +42,7 @@ Reducer(Output): Will generate a Text file like part-0000.txt which has final tf
 -input /python/test.txt/ \
 -output /wordout `
 
-- **IMPORTANT NOTES, 
-**1) Kindly have Latest Hadoop Streaming JAR which has version more then 3.x.x, older version does not support -file extension.
+**IMPORTANT NOTE**
+1) Kindly have Latest Hadoop Streaming JAR which has version more then 3.x.x, older version does not support -file extension.
 
 ***Author - Satyam Ramawat
