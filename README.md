@@ -30,7 +30,7 @@ Reducer(Output): Will generate a Text file like part-0000.txt which has final tf
 
 - Clone the Repo
 - Go to terminal
-- Type Command `cat <AnyTextFile> | python /MapperPhaseOne.py | python /ReducerPhaseOne.py`
+- Type Command `cat <AnyTextFile> | python MapperPhaseOne.py | python ReducerPhaseOne.py`
   
 ## 4) Run on HDFS 
 
