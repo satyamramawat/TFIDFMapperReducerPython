@@ -43,6 +43,10 @@ Reducer(Output): Will generate a Text file like part-0000.txt which has final tf
 -input /python/test.txt/ \
 -output /wordout `
 
+## 5) To check the Top 10 
+
+`hdfs dfs -cat /data/* | sort -r -k2 | head -10
+
 **IMPORTANT NOTE**
 - Kindly have Latest Hadoop Streaming JAR which has version more then 3.x.x, older version does not support -file extension.
 
